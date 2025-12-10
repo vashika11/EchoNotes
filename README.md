@@ -26,14 +26,12 @@ Perfect for students and developers learning front-end basics.
 
 **Technologies Used**
 
-HTML — Base structure
-
-CSS — Styling and animations
-
-JavaScript — Event handling & sound playback
+- HTML — Base structure
+- CSS — Styling and animations
+- JavaScript — Event handling & sound playback
 
 
 **Contributing**
 
-Contributions and suggestions are welcome!
-Feel free to report issues or open a pull request.
+- Contributions and suggestions are welcome!
+- Feel free to report issues or open a pull request.
