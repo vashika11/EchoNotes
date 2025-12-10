@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    background: url(bg/bg.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.keys {
+    display: flex;
+    position: relative;
+}
+  
+.key-wrapper {
+    position: relative;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+}
+  
+.key {
+    border: 1px solid #000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 60px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1;
+    transition: 0.1s;
+}
+
+.key .sound{
+    color: rgb(165, 165, 165);
+}
+  
+.key.black {
+    position: absolute;
+    top: 0;
+    width: 40px;
+    height: 160px;
+    background: black;
+    z-index: 2;
+    color: white;
+    font-weight: bold;
+    left: 35px; 
+}
+  
+.key.playing {
+    background: #f57fa8;
+    transform: scaleY(0.98);
+    box-shadow: 0 0 15px rgb(231, 231, 231);
+}
+  
+.key kbd,
+.key .sound {
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+}
+  
