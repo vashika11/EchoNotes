@@ -35,3 +35,7 @@ Perfect for students and developers learning front-end basics.
 
 - Contributions and suggestions are welcome!
 - Feel free to report issues or open a pull request.
+
+
+**Author**
+Vashika Tyagi
